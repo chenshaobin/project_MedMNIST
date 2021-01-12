@@ -1,0 +1,52 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E305" />
+          <option value="E501" />
+          <option value="E302" />
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="input" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="model.esrgan_GPU.D_loss_meter" />
+          <option value="model.esrgan_GPU.G_TotalLoss_meter" />
+          <option value="model.esrgan_GPU.content_loss_meter" />
+          <option value="model.esrgan_GPU.G_adv_loss_meter" />
+          <option value="model.esrgan_GPU.pixel_loss_meter" />
+          <option value="model.esrgan_GPU.C_TotalLoss_meter" />
+          <option value="model.esrgan_GPU.C_GanLoss_meter" />
+          <option value="model.esrgan_GPU.getWriter" />
+          <option value="model.esrgan_GPU.GeneratorRRDB" />
+          <option value="model.esrgan_GPU.Discriminator" />
+          <option value="model.esrgan_GPU.FeatureExtractor" />
+          <option value="model.esrgan_GPU.Classifier" />
+          <option value="model.esrgan_GPU.get_rop_loaders" />
+          <option value="model.esrgan_GPU.ROPData" />
+          <option value="model.esrgan_GPU.tensorboard_util" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
